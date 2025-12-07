@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Shop | CHARVIS
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="top-bar">
+   <p>
+    New: Radiance Ritual Set now live &bull; Limited stock
+   </p>
+  </header>
+  <header class="main-header">
+   <div class="logo">
+    CHARVIS
+   </div>
+   <nav>
+<a href="index.html">
+     Home
+    </a>
+    <a class="active" href="shop.html">
+     Shop
+    </a>
+    <a href="cart.html">
+     Cart
+    </a>      <a href="account.html" class="auth-link">Sign in / Sign up</a>
+    </nav>
+  </header>
+  <main class="page">
+   <header class="section-heading">
+    <div>
+     <p class="eyebrow">
+      Shop
+     </p>
+     <h2>
+      Curated rituals for every skin mood.
+     </h2>
+    </div>
+   </header>
+   <div class="product-grid">
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Golden Dew Body Serum bottle on a soft beige background" src="product1.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Golden Dew Body Serum
+      </h3>
+      <p class="product-desc">
+       For ultra-soft, baby-smooth skin.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹1,499
+       </span>
+       <button class="btn tiny" onclick="addToCart('Golden Dew Body Serum',1499)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Balance Repair Moisture Cream jar in a minimal setup" src="product2.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Balance Repair Moisture Cream
+      </h3>
+      <p class="product-desc">
+       Barrier repair for tired, dry skin.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹1,099
+       </span>
+       <button class="btn tiny" onclick="addToCart('Balance Repair Moisture Cream',1099)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Light Veil Radiance Serum bottle product shot" src="product3.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Light Veil Radiance Serum
+      </h3>
+      <p class="product-desc">
+       Lightweight glow boost for daily use.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹1,299
+       </span>
+       <button class="btn tiny" onclick="addToCart('Light Veil Radiance Serum',1299)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Cloud Silk Cleansing Foam minimalist product photo" src="product4.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Cloud Silk Cleansing Foam
+      </h3>
+      <p class="product-desc">
+       Gentle cleanser that doesn&rsquo;t strip moisture.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹899
+       </span>
+       <button class="btn tiny" onclick="addToCart('Cloud Silk Cleansing Foam',899)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Hydra Glow Face Wash tube product photo" src="product5.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Hydra Glow Face Wash
+      </h3>
+      <p class="product-desc">
+       Deep, refreshing cleanse that leaves skin bouncy.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹799
+       </span>
+       <button class="btn tiny" onclick="addToCart('Hydra Glow Face Wash',799)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Vitamin C Brightening Serum glass bottle" src="product6.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Vitamin C Brightening Serum
+      </h3>
+      <p class="product-desc">
+       Brightens dull skin and supports an even tone.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹1199
+       </span>
+       <button class="btn tiny" onclick="addToCart('Vitamin C Brightening Serum',1199)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Aloe Cloud Moisturizer jar" src="product7.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Aloe Cloud Moisturizer
+      </h3>
+      <p class="product-desc">
+       Feather-light hydration for all skin types.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹899
+       </span>
+       <button class="btn tiny" onclick="addToCart('Aloe Cloud Moisturizer',899)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Charcoal Detox Clay Mask jar" src="product8.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Charcoal Detox Clay Mask
+      </h3>
+      <p class="product-desc">
+       Pulls out impurities and refines the look of pores.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹499
+       </span>
+       <button class="btn tiny" onclick="addToCart('Charcoal Detox Clay Mask',499)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="Night Repair Renewal Serum bottle" src="product9.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       Night Repair Renewal Serum
+      </h3>
+      <p class="product-desc">
+       Works overnight so you wake up to rested skin.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹1399
+       </span>
+       <button class="btn tiny" onclick="addToCart('Night Repair Renewal Serum',1399)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+    <article class="product-card">
+     <div class="product-image">
+      <img alt="SPF 50+ Sun Shield Gel bottle" src="product10.png"/>
+     </div>
+     <div class="product-info">
+      <h3>
+       SPF 50+ Sun Shield Gel
+      </h3>
+      <p class="product-desc">
+       Non-greasy, no-white-cast daily sun protection.
+      </p>
+      <div class="product-meta">
+       <span class="price">
+        ₹699
+       </span>
+       <button class="btn tiny" onclick="addToCart('SPF 50+ Sun Shield Gel',699)">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </article>
+   </div>
+  </main>
+  <footer class="site-footer">
+   <p class="copyright">
+    &copy; 2025 CHARVIS Beauty. All rights reserved.
+   </p>
+  </footer>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
